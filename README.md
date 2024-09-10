@@ -8,7 +8,7 @@ CTF sql盲注日志分析
 strings logbool.pcapng|grep success > sucess.txt
 ```
 ## 处理需要还原的字段
-content字段处理下
+content字段处理下，将需要处理的字段摘取到txt里，准备使用脚本处理。
 ![image](https://github.com/user-attachments/assets/06c7ecdc-e607-49e9-a9f9-08d560c8650f)
 ## 脚本还原内容
 修改脚本读取txt路径直接输出盲注内容
